@@ -7,29 +7,73 @@
     <title>Delivery food</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header-box">
-          <div class="header-logo logo">
-            <img src="./images/logoFood.png" alt="Logo">
-          </div>
-          <div class="header-controls">controls</div>
-        </div>
-      </div>
-    </header>
-    <main class="main">
-      <div class="container">main</div>
-    </main>
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-box">
-            <div class="footer-logo logo">
-                <img src="./images/logoFood.png" alt="Logo">
+    <div class="page-wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-box">
+            <div class="header-logo logo">
+              <img src="./images/logoFood.png" alt="Logo" />
             </div>
-            <div class="footer-nav">menu</div>
-            <div class="footer-social">icons</div>
+            <div class="header-controls">
+              <button class="btn btn-primery">
+                <img src="./images/icons/user.png" alt="User" />
+                Войти
+              </button>
+              <button class="btn btn-outline">
+                <img src="./images/icons/icon container.png" alt="" />
+                Корзина
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-    </footer>
+      </header>
+      <main class="main">
+        <section class="banner">
+          <div class="container">
+            <div class="banner-item">
+              <h2 class="banner-item--title">
+                Онлайн-сервис<br> доставки еды на дом
+              </h2>
+              <p class="banner-item--subtitle">
+                Блюда из любимого ресторана привезет курьер в перчатках, маске и
+                с антисептиком
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="products">
+          <div class="container">
+            <div class="products-header">
+              <h3 class="products-header--title">
+                Рестораны
+              </h3>
+              <input type="text" class="products-header--search" placeholder="Поиск блюд и ресторанов" />
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-box">
+            <div class="footer-logo logo">
+              <img src="./images/logoFood.png" alt="Logo" />
+            </div>
+            <div class="footer-nav">
+              <ul>
+                <li>Ресторанам</li>
+                <li>Курьерам</li>
+                <li>Пресс-центр</li>
+                <li>Контакты</li>
+              </ul>
+            </div>
+            <div class="footer-social">
+              <img src="./images/icons/inst.png" alt="Inst" />
+              <img src="./images/icons/fb.png" alt="Fb" />
+              <img src="./images/icons/vk.png" alt="Vk" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
